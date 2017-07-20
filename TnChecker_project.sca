@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CodeAnnotationData version="1.0" productName="SlickEdit" productVersion="13.0.2.0">
+	<AnnotationDef name="Comment" id="580f3fc2-4747-49a2-8b46-cb500ca28e31" author="SlickEdit" creationDate="1/31/2007" lastModifiedDate="1/31/2007" lastModifiedUser="SlickEdit" version="1">
+		<FieldDef name="Comment" type="Multiline Text Control" index="0">
+			<DefaultValue>
+				<![CDATA[]]>
+			</DefaultValue>
+		</FieldDef>
+	</AnnotationDef>
+	<CodeAnnotation annotationDefId="comment" author="stephen lapierre" creationDate="9/5/2007 11:15am" lastModifiedUser="stephen lapierre" lastModifiedDate="9/28/2007 10:54am" annotationDefVersion="" version="2">
+		<MarkerInfo fileName="TnChecker.cpp" basePath="D:\slapware\console\CatalogThumb\" lineNumber="571" lineCount="10">
+			<LineText>
+				<![CDATA[ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /]]>
+			</LineText>
+			<LinesBefore>
+				<LineText>
+					<![CDATA[ / / on table T009_PIX2DAM_DATA_EXT / /]]>
+				</LineText>
+			</LinesBefore>
+			<LinesAfter>
+				<LineText>
+					<![CDATA[ m_szerror = pOci - > GetOCIint ( m_upSql , m_reissue ) ;]]>
+				</LineText>
+			</LinesAfter>
+		</MarkerInfo>
+		<Field name="Comment">
+			<Value>
+				<![CDATA[Added 9/5/07 for Embargo test. No thumbnail creation if sale restricted flag is set. Modified 9/28 for 'E' instead of 'Y'.]]>
+			</Value>
+		</Field>
+	</CodeAnnotation>
+	<CodeAnnotation annotationDefId="comment" author="stephen lapierre" creationDate="9/27/2007 10:36am" lastModifiedUser="stephen lapierre" lastModifiedDate="9/27/2007 10:37am" annotationDefVersion="" version="1">
+		<MarkerInfo fileName="CImageGlobals.cpp" basePath="D:\slapware\console\CatalogThumb\" lineNumber="576" lineCount="10">
+			<LineText>
+				<![CDATA[ bool CImageGlobals : : makeShareMap ( )]]>
+			</LineText>
+			<LinesBefore>
+				<LineText>
+					<![CDATA[ / / + - - - - - - - - - - - - - - - - - - +]]>
+				</LineText>
+			</LinesBefore>
+			<LinesAfter>
+				<LineText>
+					<![CDATA[ std : : ostringstream strstrm ;]]>
+				</LineText>
+			</LinesAfter>
+		</MarkerInfo>
+		<Field name="Comment">
+			<Value>
+				<![CDATA[If version 9 uses XML this function will have to change. As it is already a call to populate the sharemap it should be ok, dependant on the format of the XML used.]]>
+			</Value>
+		</Field>
+	</CodeAnnotation>
+	<CodeAnnotation annotationDefId="comment" author="stephen lapierre" creationDate="2008/06/02 17:05" lastModifiedUser="stephen lapierre" lastModifiedDate="2008/06/02 17:05" annotationDefVersion="" version="1">
+		<MarkerInfo fileName="CatNailer.cpp" basePath="D:\slapware\console\CatalogThumb\" lineNumber="624" lineCount="10">
+			<LineText>
+				<![CDATA[ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /]]>
+			</LineText>
+			<LinesBefore>
+				<LineText>
+					<![CDATA[ } / / if ( !m_szerror . empty ( ) )]]>
+				</LineText>
+				<LineText>
+					<![CDATA[]]>
+				</LineText>
+				<LineText>
+					<![CDATA[ m_isbn . clear ( ) ;]]>
+				</LineText>
+				<LineText>
+					<![CDATA[ m_longName . clear ( ) ;]]>
+				</LineText>
+				<LineText>
+					<![CDATA[ m_record_id = 0 ;]]>
+				</LineText>
+			</LinesBefore>
+			<LinesAfter>
+				<LineText>
+					<![CDATA[ / / Move up iterator for next map entry . / /]]>
+				</LineText>
+				<LineText>
+					<![CDATA[ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /]]>
+				</LineText>
+				<LineText>
+					<![CDATA[ #ifndef _SLAP_DBG_LOCAL_]]>
+				</LineText>
+				<LineText>
+					<![CDATA[ itr + + ;]]>
+				</LineText>
+				<LineText>
+					<![CDATA[ #endif / / _SLAP_DBG_LOCAL_]]>
+				</LineText>
+			</LinesAfter>
+		</MarkerInfo>
+		<Field name="Comment">
+			<Value>
+				<![CDATA[(GIF == 4) || (JPG == 13) || (PNG == 43) || (PDF == 59)]]>
+			</Value>
+		</Field>
+	</CodeAnnotation>
+	<CodeAnnotation annotationDefId="comment" author="stephen lapierre" creationDate="2008/06/26 10:40" lastModifiedUser="stephen lapierre" lastModifiedDate="2008/06/26 10:41" annotationDefVersion="" version="1">
+		<MarkerInfo fileName="CatNailer.cpp" basePath="D:\slapware\console\CatalogThumb\" lineNumber="1128" lineCount="10">
+			<LineText>
+				<![CDATA[ m_imghandle = IMG_decompress_bitmap ( ( char * ) m_realFile . c_str ( ) ) ; / / Decompress image page 1]]>
+			</LineText>
+			<LinesBefore>
+				<LineText>
+					<![CDATA[ IMG_delete_bitmap ( m_imghandle ) ;]]>
+				</LineText>
+				<LineText>
+					<![CDATA[ / / - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - MedLarge - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -]]>
+				</LineText>
+				<LineText>
+					<![CDATA[ m_imghandle = - 1 ;]]>
+				</LineText>
+				<LineText>
+					<![CDATA[]]>
+				</LineText>
+				<LineText>
+					<![CDATA[ / / m_imghandle = IMG_decompress_bitmap_page ( ( char * ) m_realFile . c_str ( ) , 0 ) ; / / Decompress image page 1]]>
+				</LineText>
+			</LinesBefore>
+			<LinesAfter>
+				<LineText>
+					<![CDATA[ if ( m_imghandle < 0 )]]>
+				</LineText>
+				<LineText>
+					<![CDATA[ {]]>
+				</LineText>
+				<LineText>
+					<![CDATA[ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /]]>
+				</LineText>
+				<LineText>
+					<![CDATA[ / / Move up iterator for next map entry . / /]]>
+				</LineText>
+				<LineText>
+					<![CDATA[ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /]]>
+				</LineText>
+			</LinesAfter>
+		</MarkerInfo>
+		<Field name="Comment">
+			<Value>
+				<![CDATA[IMG_decompress_bitmap_page must be replaced with IMG_decompress_bitmap for use with SB DLL 11.2.0 (NPS) or ordinal 175 error will cause app failure to start.]]>
+			</Value>
+		</Field>
+	</CodeAnnotation>
+	<CodeAnnotation annotationDefId="comment" author="stephen lapierre" creationDate="2008/06/26 10:43" lastModifiedUser="stephen lapierre" lastModifiedDate="2008/06/26 10:43" annotationDefVersion="" version="1">
+		<MarkerInfo fileName="CatNailer.cpp" basePath="D:\slapware\console\CatalogThumb\" lineNumber="804" lineCount="10">
+			<LineText>
+				<![CDATA[ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /]]>
+			</LineText>
+			<LinesBefore>
+				<LineText>
+					<![CDATA[ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /]]>
+				</LineText>
+				<LineText>
+					<![CDATA[ m_height = 0 ;]]>
+				</LineText>
+				<LineText>
+					<![CDATA[]]>
+				</LineText>
+				<LineText>
+					<![CDATA[ LPBITMAPINFOHEADER inheader = IMG_bitmap_info ( m_imghandle , & m_width , & m_height , & m_bpp ) ;]]>
+				</LineText>
+			</LinesBefore>
+			<LinesAfter>
+				<LineText>
+					<![CDATA[ / / Avoid divide by zero with adding an exception stack frame . / /]]>
+				</LineText>
+				<LineText>
+					<![CDATA[ / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /]]>
+				</LineText>
+				<LineText>
+					<![CDATA[ if ( m_height = = 0 )]]>
+				</LineText>
+				<LineText>
+					<![CDATA[ {]]>
+				</LineText>
+				<LineText>
+					<![CDATA[ string tmp = " LPBITMAPINFOHEADER Invalid " ;]]>
+				</LineText>
+			</LinesAfter>
+		</MarkerInfo>
+		<Field name="Comment">
+			<Value>
+				<![CDATA[type 4 = GIF, 13 = JPG, 43 = PNG, 59 = PDF
+14 = EPS]]>
+			</Value>
+		</Field>
+	</CodeAnnotation>
+</CodeAnnotationData>

@@ -1,0 +1,41 @@
+[Global]
+CurrentProject=TnChecker.vpj
+[ActiveConfig]
+TnChecker.vpj=,Release|Win32
+[ProjectDates]
+TnChecker.vcproj=20070521170936730
+[TreeExpansion2]
+- TnChecker.vcproj
+  - Source Files
+  + Header Files
+  + Resource Files
+scroll:0
+[State]
+SCREEN: 1024 768 44 58 768 553 0 0 M 0 0 0 0 684 604 0
+CWD: ..\XcChecker
+BUFFER: BN="CImageGlobals.h"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.1250 CL=1 LE=0 CX=1 CY=18 WI=5 BI=17 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="CImageGlobals.cpp"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.15530 CL=3 LE=0 CX=3 CY=11 WI=5 BI=18 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="TnChecker.cpp"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=4720 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.19587 CL=28 LE=0 CX=28 CY=12 WI=5 BI=19 HT=0 HN=0 HF=0 HC=4
+WINDOW: 0 0 530 422 -1 -1 N  WF=0 WT=3 "Default Fixed Font,10,0,1"
+BUFFER: BN="CImageGlobals.cpp"
+VIEW: LN=.15530 CL=3 LE=0 CX=3 CY=11 WI=141 BI=18 HT=0 HN=0 HF=0 HC=4
+WINDOW: 14 147 577 335 -1 -1 M  WF=0 WT=1 "Default Fixed Font,10,0,1"
+BUFFER: BN="TnChecker.cpp"
+VIEW: LN=.19536 CL=28 LE=0 CX=28 CY=11 WI=142 BI=19 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+..\..\libs\Snowbound\Custom\samples\C_Samples\Callback.c
+..\DDR\TnChecker\CFtpGlobals.cpp
+..\DDR\TnChecker\CFtpGlobals.h
+CImageGlobals.h
+stdafx.h
+slap_ftp.cpp
+queList.cpp
+CImageGlobals.cpp
+TnChecker.cpp
+TBCLASS: 0 0

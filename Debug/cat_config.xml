@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<SESSION>
+  <FileStore>HCUSNY702</FileStore>
+  <TNS>dev_tele</TNS>
+  <Delete>0</Delete>
+  <PostXML>Yes</PostXML>
+  <BaseDir>/export/home/oracle/</BaseDir>
+  <STEPIN sDir="CMS">0</STEPIN>
+  <USE_DIR>1</USE_DIR>
+  <FTP_HOST>HCUSNY113</FTP_HOST>
+  <FTP_PORT>21</FTP_PORT>
+  <FTP_USER>oracle</FTP_USER>
+  <!-- auth 0=None 1=AUTH 2=IMPLICIT -->
+  <FTP_PASS auth="0">dam0user</FTP_PASS>
+  <!-- rMeth HCSTD=0 ISBN=1 ISBNID=2 ISBNTYPE=3 ISBNFILE=4 -->
+  <RENAME rMeth="3">1</RENAME>
+  <DB_TABLE>CMS_PUSH</DB_TABLE>
+  <LogName>catalogLog.xml</LogName>
+<LocalSmall >
+    <Height>100</Height>
+    <Width>64</Width>
+    <Path>D:\Thumb\local_small\</Path>
+    <FTP_PATH>small</FTP_PATH>'
+</LocalSmall>
+<LocalMed>
+    <Height>150</Height>
+    <Width>96</Width>
+    <Path>D:\Thumb\local_med\</Path>
+    <FTP_PATH>medium</FTP_PATH>
+</LocalMed>
+<LocalMedLarge>
+    <Height>190</Height>
+    <Width>174</Width>
+    <Path>D:\Thumb\local_medLarge\</Path>
+    <FTP_PATH>medLarge</FTP_PATH>
+</LocalMedLarge>
+<LocalLarge>
+    <Height>648</Height>
+    <Width>415</Width>
+    <Path>D:\Thumb\local_large\</Path>
+    <FTP_PATH dFold="large">1</FTP_PATH>
+</LocalLarge>
+</SESSION>
