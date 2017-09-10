@@ -9,9 +9,9 @@
   <USE_DIR>1</USE_DIR>
   <FTP_HOST>HCUSNY113</FTP_HOST>
   <FTP_PORT>21</FTP_PORT>
-  <FTP_USER>oracle</FTP_USER>
+  <FTP_USER>username</FTP_USER>
   <!-- auth 0=None 1=AUTH 2=IMPLICIT -->
-  <FTP_PASS auth="0">dam0user</FTP_PASS>
+  <FTP_PASS auth="0">secretpassword</FTP_PASS>
   <!-- rMeth HCSTD=0 ISBN=1 ISBNID=2 ISBNTYPE=3 ISBNFILE=4 -->
   <RENAME rMeth="3">1</RENAME>
   <DB_TABLE>CMS_PUSH</DB_TABLE>
