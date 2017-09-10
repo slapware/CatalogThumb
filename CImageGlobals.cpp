@@ -5,7 +5,7 @@
 // Copyright (C) 2004 SlapWare, All rights reserved.
 //
 // $History$
-// 03 Dec 2004, stephen lapierre -- Generated 11:16:08 by Genitor OCS V4.50.915.2
+// 03 Dec, stephen lapierre -- Generated 11:16:08 by Genitor OCS V4.50.915.2
 //
 //:---------------------------------------------------------------------------
 
